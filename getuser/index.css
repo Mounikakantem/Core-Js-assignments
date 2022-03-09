@@ -1,0 +1,26 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#header-row > th, td {
+    border: 1px solid rgb(10, 10, 10);
+    text-align: center;
+    min-width: 150px;
+    padding: 12px;
+}
+.get-users {
+    background-color: #2DADF0;
+    color: #ffffff; 
+    border-radius: 5px;
+    font-weight: 900;
+    padding: 12px;
+    margin-bottom: 14px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+   
+    
+   
+} 

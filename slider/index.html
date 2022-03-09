@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          img{
+              margin-top:3%;
+              border: 10px solid skyblue;
+              margin-left: 30%;
+          }
+    </style>
+</head>
+<body>
+<script>
+  
+  var i = 0;
+  var images = [];
+  var time = 2000;
+
+ images[0] = "image1.jpg";
+ images[1] = "image2.jpg";
+ images[2] = "image3.jpg";
+ images[3] = "image4.jpg";
+ 
+ function slideImg(){
+     document.slide.src = images[i];
+     if (i<images.length-1 ) {
+        i++
+     } 
+     else {
+         i = 0;
+     } 
+     setTimeout("slideImg()",time);
+ } 
+
+ window.onload = slideImg;
+</script>
+
+<img name = "slide"  class = "img" height = "500px" width = "400px">
+</body>
