@@ -1,0 +1,17 @@
+.contact-details {
+    margin: auto;
+    width: 600px;
+    background-color: rgb(219, 191, 139);
+    padding: 5px 0px 10px 0px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: blue;
+}
+
+table {
+    margin-left: 160px;
+
+}

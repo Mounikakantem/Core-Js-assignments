@@ -1,0 +1,26 @@
+.main-root {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.each-div {
+    box-shadow: rgba(121, 121, 196, 0.2) 0px 7px 29px 0px;
+    width: 20%;
+    border-radius: 10px;
+    min-height: 200px;
+    margin: 8px;
+    padding: 8px;
+}
+.get-posts {
+    background-color: #2DADF0;
+    color: #ffffff;
+    font-weight: bold;
+    border: 0;
+    outline: 0;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}

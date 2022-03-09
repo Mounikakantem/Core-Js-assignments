@@ -1,0 +1,17 @@
+.heading {
+    font-family: "Roboto";
+}
+.user-input {
+    font-size: 24px;
+    font-weight:900; 
+    font-family: "Roboto";
+    
+}
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    max-width: 325px;
+    
+}
